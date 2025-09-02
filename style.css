@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    padding:40px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .opcoes nav ul{
+    list-style-type: none;
+}
+
+
+header .opcoes nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+   
+
+header .opcoes nav ul li a{
+    color: rgb(31, 87, 17);
+    text-decoration: none;
+}
+
+/* Estilo apresentacao*/
+section.apresentacao{
+    
+    height: 100vh;
+    background-image: url(https://www.duesberg-medical.de/wp-content/uploads/2021/09/header-home-2.jpg);
+    
+}
+.apresentacao .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.maciez .titulo{
+    
+    font-size: 20px;
+    width: 60%;
+    line-height: 30px;
+    padding: 0% 20px;
+}
